@@ -1,0 +1,9 @@
+<h1>Third assignment</h1>
+<button (click)= showPassword()>Display Details</button>
+<p *ngIf="secretPassword">My secret password is toto</p>
+<div 
+  *ngFor="let item of arrayItems"
+  [ngStyle]="{background: item >=5 ? 'blue' : 'white'}"
+  [ngClass] = "{'itemColor': item>=5}">
+{{item}}
+</div>

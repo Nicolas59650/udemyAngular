@@ -6,13 +6,15 @@ import { WarningAlertComponent } from './warningAlert/warningAlert.component';
 import { SuccessAlertComponent } from './successAlert/successAlert.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { FormsModule } from '@angular/forms';
+import { Databinding2Component } from './databinding2/databinding2.component';
 
 @NgModule({
-  declarations: [					
+  declarations: [						
     AppComponent,
       WarningAlertComponent,
       SuccessAlertComponent,
-      DatabindingComponent
+      DatabindingComponent,
+      Databinding2Component
    ],
   imports: [
     FormsModule,
