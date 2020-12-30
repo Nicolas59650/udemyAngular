@@ -4,14 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { WarningAlertComponent } from './warningAlert/warningAlert.component';
 import { SuccessAlertComponent } from './successAlert/successAlert.component';
+import { DatabindingComponent } from './databinding/databinding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [				
+  declarations: [					
     AppComponent,
       WarningAlertComponent,
-      SuccessAlertComponent
+      SuccessAlertComponent,
+      DatabindingComponent
    ],
   imports: [
+    FormsModule,
     BrowserModule
   ],
   providers: [],
